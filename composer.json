@@ -1,0 +1,24 @@
+{
+    "name": "haribon/haribon-http-message",
+    "description": "Haribon HTTP Message is an implementation of PSR HTTP Message Interface.",
+    "type": "library",
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Julian Jupiter",
+            "email": "julianjupiter.io@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+      "psr-4": {
+        "Haribon\\Http\\Message\\": "src/"
+      }
+    }
+}
